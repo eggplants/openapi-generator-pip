@@ -29,9 +29,11 @@ jobs:
         python-version: ${{ matrix.python-version }}
         cache: poetry
     - name: Setup
+      shell: bash
       run: |
         poetry install --no-interaction
-        poetry run task download-latest-jar
+        export DOWNLOAD_LATEST_ONLY=1
+        poetry run task publish
     - name: Test
       run: |
         poetry run task test
