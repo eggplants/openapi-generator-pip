@@ -26,8 +26,6 @@ This project checks the [maven repository] once a day for a new version and will
 
 ## Installation
 
-You must have the `java` binary executable available on your PATH for this to work. (JDK 11 is the minimal version supported. To install OpenJDK, please visit <https://adoptium.net/>)
-
 You can install the package either in a virtual environment or globally.
 
 ```sh

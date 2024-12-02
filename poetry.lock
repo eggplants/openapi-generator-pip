@@ -89,6 +89,20 @@ files = [
 ]
 
 [[package]]
+name = "jdk4py"
+version = "21.0.4.1"
+description = "A JDK shipped in a Python package"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "jdk4py-21.0.4.1-py3-none-macosx_10_9_x86_64.whl", hash = "sha256:786888fe44811ddf8788bf6e454119e4b5d820a167e3ec9fa2098f4e07d5420f"},
+    {file = "jdk4py-21.0.4.1-py3-none-macosx_11_0_arm64.whl", hash = "sha256:0efda61573596c05c53554dc7ca73748b3ba17f4817519f0a1e14e6c92e75be0"},
+    {file = "jdk4py-21.0.4.1-py3-none-manylinux_2_17_aarch64.whl", hash = "sha256:7d6dc78001a7a1852b2da2be4702468419675bf58122d55928ee000990a46b56"},
+    {file = "jdk4py-21.0.4.1-py3-none-manylinux_2_17_x86_64.whl", hash = "sha256:0604994e2baf94eeb4a788dafadaa1c8593aa474d3e4d7e7f1dd69c3524908f7"},
+    {file = "jdk4py-21.0.4.1-py3-none-win_amd64.whl", hash = "sha256:b81d689623f24a9241f50258d0994f7e9c8630c892ae0d5f5fe8b91ac8349845"},
+]
+
+[[package]]
 name = "mslex"
 version = "1.3.0"
 description = "shlex for windows"
@@ -454,5 +468,5 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 
 [metadata]
 lock-version = "2.0"
-python-versions = ">=3.9,<4"
-content-hash = "2561c86407033c78678432c283ff68e501370c5d382987e6274ceebc92aa0355"
+python-versions = ">=3.10,<4"
+content-hash = "c9eb2364e544ec842056c0714b5269db4d7ce45c074674e6b855741cfaa18edf"

@@ -7,6 +7,7 @@ import os
 import subprocess
 import sys
 
+from jdk4py import JAVA
 
 def run(args: list[str] | None = None) -> subprocess.CompletedProcess[bytes]:
     """Run the OpenAPI Generator CLI with the given arguments.
@@ -22,7 +23,7 @@ def run(args: list[str] | None = None) -> subprocess.CompletedProcess[bytes]:
 
 
     """
-    arguments = ["java"]
+    arguments = [JAVA]
 
     java_opts = os.getenv("JAVA_OPTS")
     if java_opts:

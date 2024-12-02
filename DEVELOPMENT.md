@@ -2,8 +2,7 @@
 
 ## Requirement
 
-- `python>=3.9`
-- `java`
+- `python>=3.10`
 
 ## Setup
 

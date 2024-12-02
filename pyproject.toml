@@ -37,7 +37,8 @@ repository = "https://github.com/OpenAPITools/openapi-generator"
 documentation = "https://github.com/OpenAPITools/openapi-generator#3---usage"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<4"
+python = ">=3.10,<4"
+jdk4py = "^21.0.4.1"
 
 [tool.poetry.group.dev.dependencies]
 mypy = ">=0.991,<1.14"
