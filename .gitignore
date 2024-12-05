@@ -5,7 +5,7 @@ __pycache__/
 .idea/
 bin/
 version
-openapi_generator_cli/*.jar
+# openapi_generator_cli/*.jar
 .DS_Store
 # C extensions
 *.so

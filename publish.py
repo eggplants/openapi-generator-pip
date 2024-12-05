@@ -78,7 +78,7 @@ def get_published_vesions() -> KeysView[str]:
 
 
 def download_latest_jar_for_test() -> None:
-    latest_version = natsorted(get_available_versions())[-1]
+    latest_version = "4.3.1" # natsorted(get_available_versions())[-1]
     print(f"[{latest_version}] Downloading...")
     download_openapi_generator_jar(latest_version)
     print(f"[{latest_version}] Downloaded!")
